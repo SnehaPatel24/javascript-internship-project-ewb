@@ -92,7 +92,7 @@ for (let i = 0; i < inventory.length; i++) {
         continue;
     }
 
-    if (inventory[i].name === "Monitor") {
+    if (inventory[i].name.toLowerCase() === "monitor") {
         console.log("Found product:", inventory[i].name);
         break;
     }
